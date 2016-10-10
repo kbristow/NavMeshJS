@@ -1,0 +1,23 @@
+<html>
+<head>
+<!-- Load the Paper.js library -->
+<script type="text/javascript" src="PaperJS/dist/paper-full.js"></script>
+<!-- Define inlined PaperScript associate it with myCanvas -->
+<script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+	<canvas id="myCanvas" resize></canvas>
+	<br/>
+	<a href="#" onclick="highlightConcavePoints()">Show Concave Points</a>
+	<br/>
+	<a href="#" onclick="highlightIiPoints()">Show Points in Ii</a>
+	<br/>
+	<a href="#" onclick="highlightIiEdges()">Show Edges in Ii</a>
+	<br/>
+	<a href="#" onclick="solveWithClosestVertex()">Solve Closest Vertex</a>
+	<br/>
+	<a href="#" onclick="solveWithClosestEdge()">Solve Closest Edge</a>
+	<br/>
+	<a href="#" onclick="solveCombined()">Solve Combined</a>
+</body>
+</html>
