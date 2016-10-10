@@ -1,5 +1,6 @@
 # NavMeshJS
 JS implementation of Automatic Generation of Suboptimal NavMeshes - Ramon Olivia, Nuria Pelechano
+http://www.cs.upc.edu/~npelechano/Oliva_MIG2011.pdf
 
 # Use
 Open index.html and draw a polygon. Use the options at the bottom of the page to play around with splitting the polygon into convex polygons using the various parts of the algorithm described by Olivia and Pelechano.
